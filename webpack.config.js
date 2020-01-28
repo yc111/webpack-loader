@@ -14,7 +14,7 @@ module.exports = {
         {
           test: /\.js$/,
           // 直接指明 loader 的绝对路径
-          use: path.resolve(__dirname, 'loaders/simple-loader')
+          use: path.resolve(__dirname, 'loaders/simple-loader-with-pitch')
         }
       ]
     }
