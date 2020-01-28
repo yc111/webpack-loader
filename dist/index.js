@@ -104,7 +104,7 @@ eval("\n// require('./index.css');\nlet p = __webpack_require__(/*! ./nodejs.png
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("\n      module.exports = 'results of processing source'\n    \n\n//# sourceURL=webpack:///./src/nodejs.png?");
+eval("module.exports = '\"0cc5fb3e6ed7b7549f3401457ecfefea.png\"'\n\n//# sourceURL=webpack:///./src/nodejs.png?");
 
 /***/ })
 

@@ -43,7 +43,7 @@ module.exports = {
         // },
         {
           test: /\.(jpe?g|png|bmp|gif)$/,
-          use: 'simple-raw-loader'
+          use: 'simple-file-loader'
         }
       ]
     },
