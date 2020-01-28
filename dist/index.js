@@ -91,9 +91,20 @@
   !*** ./src/index.js ***!
   \**********************/
 /*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("\n// require('./index.css');\nlet p = __webpack_require__(/*! ./nodejs.png */ \"./src/nodejs.png\");\nconsole.log(p);\n\nconsole.log('Bravo!');\n\n//# sourceURL=webpack:///./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/nodejs.png":
+/*!************************!*\
+  !*** ./src/nodejs.png ***!
+  \************************/
+/*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("\n// require('./index.css');\nconsole.log('Bravo!');\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("\n      module.exports = 'results of processing source'\n    \n\n//# sourceURL=webpack:///./src/nodejs.png?");
 
 /***/ })
 

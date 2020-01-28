@@ -37,9 +37,13 @@ module.exports = {
         //         }
         //     }]
         //   },
+        // {
+        //   test: /\.js$/,
+        //   use: 'simple-async-loader'
+        // },
         {
-          test: /\.js$/,
-          use: 'simple-async-loader'
+          test: /\.(jpe?g|png|bmp|gif)$/,
+          use: 'simple-raw-loader'
         }
       ]
     },
