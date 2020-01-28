@@ -2,3 +2,10 @@
 body {
     background: yellow;
 }
+
+.pic {
+    width: 200px;
+    height: 200px;
+    background: url('./nodejs.png');
+    background-size: cover;
+}

@@ -21,11 +21,11 @@ module.exports = {
         //   // 直接指明 loader 的绝对路径
         //   use: path.resolve(__dirname, 'loaders/simple-loader-with-pitch')
         // },
-        // {
-        //   // 配置处理 css 的 loader
-        //   test: /\.css$/,
-        //   use: ['simple-style-loader', 'css-loader']
-        // },
+        {
+          // 配置处理 css 的 loader
+          test: /\.css$/,
+          use: ['simple-style-loader', 'css-loader']
+        },
         // {
         //     test: /\.js$/,
         //     use: [{
@@ -47,10 +47,10 @@ module.exports = {
         }
       ]
     },
-    // plugins: [
-    //   // 渲染首页
-    //   new HtmlWebpackPlugin({
-    //     template: './src/index.html'
-    //   })
-    // ]
+    plugins: [
+      // 渲染首页
+      new HtmlWebpackPlugin({
+        template: './src/index.html'
+      })
+    ]
 }
