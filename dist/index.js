@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("throw new Error(\"Module build failed (from ./loaders/simple-loader-with-validate.js):\\nValidationError: Invalid configuration object. Object has been initialized using a configuration object that does not match the API schema.\\n - configuration.name should be a string.\\n    at validate (/Users/yinchuan/Documents/学习/学习笔记/test/webpack/webpack-loader/node_modules/schema-utils/dist/validate.js:85:11)\\n    at Object.module.exports (/Users/yinchuan/Documents/学习/学习笔记/test/webpack/webpack-loader/loaders/simple-loader-with-validate.js:17:3)\");\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("\n// require('./index.css');\nconsole.log('Bravo!');\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ })
 

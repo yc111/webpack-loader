@@ -33,7 +33,7 @@ module.exports = {
                 loader: 'simple-loader-with-validate',
                 options: {
                     // 这里 loader 中规定 name 的值必须是 string，验证不通过就会报错。
-                    name: 111
+                    name: '111' //111
                 }
             }]
           }
