@@ -1,0 +1,28 @@
+{
+  "name": "webpack-loader",
+  "version": "1.0.0",
+  "description": "webpack discovery and write a webpack loader",
+  "main": "webpack.config.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yc111/webpack-loader.git"
+  },
+  "keywords": [],
+  "author": "champyin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yc111/webpack-loader/issues"
+  },
+  "homepage": "https://github.com/yc111/webpack-loader#readme",
+  "devDependencies": {
+    "css-loader": "^3.4.2",
+    "html-webpack-plugin": "^3.2.0",
+    "loader-utils": "^1.2.3",
+    "schema-utils": "^2.6.4",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  }
+}
