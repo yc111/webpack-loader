@@ -26,17 +26,21 @@ module.exports = {
         //   test: /\.css$/,
         //   use: ['simple-style-loader', 'css-loader']
         // },
+        // {
+        //     test: /\.js$/,
+        //     use: [{
+        //         // 此 loader 会验证 options
+        //         loader: 'simple-loader-with-validate',
+        //         options: {
+        //             // 这里 loader 中规定 name 的值必须是 string，验证不通过就会报错。
+        //             name: '111' //111
+        //         }
+        //     }]
+        //   },
         {
-            test: /\.js$/,
-            use: [{
-                // 此 loader 会验证 options
-                loader: 'simple-loader-with-validate',
-                options: {
-                    // 这里 loader 中规定 name 的值必须是 string，验证不通过就会报错。
-                    name: '111' //111
-                }
-            }]
-          }
+          test: /\.js$/,
+          use: 'simple-async-loader'
+        }
       ]
     },
     // plugins: [
