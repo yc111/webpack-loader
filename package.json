@@ -20,7 +20,7 @@
   "devDependencies": {
     "css-loader": "^3.4.2",
     "html-webpack-plugin": "^3.2.0",
-    "loader-utils": "^1.2.3",
+    "loader-utils": "^1.4.1",
     "schema-utils": "^2.6.4",
     "webpack": "^4.41.5",
     "webpack-cli": "^3.3.10"
